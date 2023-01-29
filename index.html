@@ -7,32 +7,37 @@
     <script src="script.js" defer></script>
     <link href="style.css" rel="stylesheet">
   </head>
-  <body>
-   
+  <body>   
       <div>
         <label for="power1">Сила команды 1:</label>
         <input type="number" id="power1" name="Team1pow">
-      </div>
-    
+      </div>    
       <div>
-        <label for="power2">Сила команды 1:</label>
+        <label for="power2">Сила команды 2:</label>
         <input type="number" id="power2" name="Team2pow">
+      </div>  
+      <div class="button1">
+        <button>Сравнить шансы</button>
       </div>
-       
-      <div class="button">
-        <button type="submit">Сравнить шансы</button>
-      </div>
-    <div>
+      <div>
       <label for="chanse1">Шансы команды 1:</label>
       <span id="chanse1">???</span>
       <span>%</span>
-    </div>
-    <div> 
+      </div>
+      <div> 
       <label for="chanse2">Шансы команды 2:</label>
       <span id="chanse2">???</span>
       <span>%</span>
-    </div>
-    
+      </div>
+      <div class="button2">
+      <button>Сыграть матч</button>
+      </div>
+      <div>
+        <label for="result">Победу одержала команда:</label>
+        <span id="result">???</span>
+        <span id="pr1"></span>
+        <span id="pr2"></span>
+      </div>
    
   </body>
 </html>
