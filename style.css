@@ -2,7 +2,7 @@ body {
   margin: 0;
   overflow: hidden;
 }
-label {margin:2px;padding:2px;}
+label,input,span {margin:2px;padding:2px;}
 input {margin:2px;padding:2px;}
 div {display: flex; justify-content: center;}
 .button {margin:40px}
